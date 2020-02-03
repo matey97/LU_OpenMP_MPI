@@ -1,0 +1,7 @@
+4  # Row dimension
+4  # Column dimension
+1     # Print data/results (0=no, 1=yes)
+2.0   # Minimum threshold for timer
+0    # Random data generator (0=no, 1=yes)
+2.0   # Initial value of the generator
+2.0   # Increment of the values for the generator
