@@ -236,7 +236,7 @@ int main(int argc, char* argv[])
                 
                         //Si el proceso que tiene la columna tambien tiene  b(ipiv), se hace el swap, si no se realiza el intercambio
                         if (bPivLocation == processWorking){
-                                int ptmp = bref(k);
+                                double ptmp = bref(k);
                                 bref(k) = bref(iPiv);
                                 bref(iPiv) = ptmp;
                         } else if (bPivLocation == myId){
